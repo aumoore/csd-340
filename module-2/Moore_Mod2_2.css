@@ -1,0 +1,57 @@
+/*-- Austin Moore
+    Assignment 2.2
+    3/24/2024
+    */
+body {
+    font-family: Courier, Verdana, sans-serif;
+    font-size: 16;
+    font-weight: 400;
+    line-height: 1.4;}
+
+div.a {
+    text-indent: 2em;}
+
+span {
+    font-style: italic;}
+h1 {
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;}
+
+h2 {
+    font-weight: 500;
+    text-align: left;
+    padding-top: 15px;}
+
+div.e a{
+    text-decoration: none;}
+
+div.e {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+div.e:link {
+    color: #4F3674;
+    text-decoration-line: none;}
+
+div.e:hover {
+    background-color: #D6A800;
+    text-decoration-line: underline;
+    text-decoration-color: #000000;}
+
+div.e:active {
+    background-color: #FF0000;}
+
+div.e:visited a{
+    color:#FF0000;}
+    
+
+div.f {
+    text-align: center;
+    font-size: 1.25em;
+    border-style: none;}
+
+
+
+
