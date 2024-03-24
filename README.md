@@ -1,2 +1,4 @@
-# csd-340
-# This is for all file uploads for class CSD-340 Web Development with HTLM
+# CSD 340 Web Development with HTLM and CSS
+## Contributors
+* Mr. Issa
+* Austin Moore
