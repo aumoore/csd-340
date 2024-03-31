@@ -1,0 +1,57 @@
+/*-- Austin Moore
+    Assignment 3.2
+    3/30/2024
+    */
+    div.container {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.4;}
+    
+    h1 {
+        color: white;
+        text-align: left;
+        padding: 10px;
+        background-color: rgb(180, 29, 29);
+        border: 1px solid rgb(252, 228, 11);}
+    
+    h2 {
+        color: white;
+        text-align: left;
+        padding: 10px;
+        background-color: rgb(180, 29, 29);
+        border: 1px solid rgb(252, 228, 11);}
+
+    h3 {
+        color: white;
+        text-align: left;
+        padding: 10px;
+        background-color: rgb(180, 29, 29);
+        border: 1px solid rgb(252, 228, 11);}
+        
+    h4 {
+        color: white;
+        text-align: left;
+        padding: 10px;
+        background-color: rgb(180, 29, 29);
+        border: 1px solid rgb(252, 228, 11);}
+
+    A:link {
+        color: rgb(252, 228, 11);
+        text-decoration: none;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 1.4;}
+    A:visited {
+        color: rgb(180, 29, 29);}
+    A:hover {
+        color: rgb(224, 65, 189);}
+    A:active {
+        color: darkcyan;}
+
+        
