@@ -1,0 +1,76 @@
+/*-- Austin Moore
+    Assignment 4.2
+    4/6/2024
+    */
+    div.container {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.4;}
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+
+    
+    h1 {
+        text-align: center;
+        color: rgb(14, 116, 11);}
+
+    
+    h3 {
+        font-weight: bold;
+        text-align: center;
+        color: rgb(14, 116, 11);}
+        
+    img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    figcaption {
+        text-align: center;
+        font-style: italic;
+        font-size: .75em;
+        color: rgb(14, 116, 11);
+    }
+
+    
+    .bottom {
+        text-align: right; 
+        background: none;
+        float: right;
+        }
+
+    .middle {
+        float: center; background: none;
+        border: 1px solid red;
+        padding: 10px;
+    }
+
+    .right {
+        float: right; background: none;
+        border: 1px solid red;
+        padding: 10px;
+    }
+
+    .left {
+        float: left; background: none;
+        border: 1px solid red;
+        padding: 10px;}
+    
+    a {
+        text-decoration: none;    
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
