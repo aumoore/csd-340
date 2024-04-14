@@ -1,0 +1,104 @@
+/*-- Austin Moore
+    Assignment 6.2
+    4/14/2024
+    */
+
+
+
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    h1 {
+        text-align: center;
+        padding: 20px;
+        font-weight: 400;}
+
+    h2 {
+        color: #b93f08;
+    }
+
+    
+    header {
+        color: rgb(255, 255, 255);
+        background-color: #b93f08;
+    }
+    .container {
+        margin-top: 2%;
+        margin-left: 5%;
+        margin-right:5%;
+        padding:10px;
+
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+
+    .navbar  {
+        text-align: left;
+        word-spacing: 50px;
+        overflow: hidden;
+        display: block;
+        text-decoration: white;
+        text-decoration-color: white;
+        color: white;
+        padding: 14px 16px;
+        text-decoration: underline none;
+        border-bottom-width: 15px;
+        border-bottom-style: solid;
+        border-bottom-color: #999966;
+    }
+        
+    .navbar a {
+        color: white;
+        text-decoration-line: none;
+    }
+
+    .card {
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        width: 50%;
+    }
+    /*.card h2 = "Card Title"*/
+    .card h2 {
+        text-align: center;
+        font-size: 2em;
+        color: #b93f08;
+        font-weight: 400;
+    }
+    /*.card ol = "Card Content"*/
+    .card-contents {
+        padding: 2px 16px;
+    }
+    .card:hover{
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+ 
+    }
+
+
+
+    .footer {
+        background-color: #b93f08;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        }
+
+    .footer p {
+        font-weight: 400px;
+        padding: 10px;
+        font-style: italic;
+        text-align: right;
+        }
+
+    .footer a {
+        color: white;
+        text-decoration-line: none;
+        }
+
+    
+
