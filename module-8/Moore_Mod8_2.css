@@ -25,7 +25,6 @@
     
     .container {
         margin: 2% 5% 100px 5%;
-        padding: 10px;
     }
     
     .grid-container {
@@ -49,7 +48,7 @@
     }
     
     .navbar a {
-        color: black;
+        color: white;
         text-decoration-line: none;
     }
     
@@ -66,8 +65,9 @@
         font-weight: 400;
     }
     
+
     .card-contents {
-        padding: 2px 16px;
+        padding: 10px 10px;
     }
     
     .card:hover {
@@ -77,45 +77,49 @@
     /* New CSS Rules */
     #movies {
         border-collapse: collapse;
-        width: 100%;
         margin-bottom: 30px;
-    }
-    
-    #movies th,
-    #movies td {
-        border-collapse: 2px solid #000000; /* Add border to both th and td */
-        padding: 8px;
+        width: 100%;
     }
 
-    #movies th {
-        padding-top: 12px;
-        padding-bottom: 12px;
+
+    table, th, td {
         text-align: left;
+        border: 1px solid #ddd;
+        border-collapse: collapse;
+        padding: 8px;
+        width: 100%;
     }
     
     th {
+        padding-top: 12px;
+        padding-bottom: 12px;
         text-align: left;
-        font-size: 1em;
-        padding: 5px;
         background-color: #b93f08;
         color: rgb(255, 255, 255);
-        border-color: black;
-        border-inline-color: black;
-        border-width: 5px;
+    }
+
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+    
+    ul {
+        text-align: left;
     }
 
 
-    
     .footer {
         background-color: #b93f08;
-        position: bottom;
+        position: fixed;
+        padding: 8px;
         bottom: 0%;
         width: 100%;
+        left: 0;
         }
 
     .footer p {
         font-weight: 400px;
-        padding: 10px;
+        padding: 5px;
         font-style: italic;
         text-align: left;
         color: white;
@@ -126,6 +130,11 @@
         text-align: right;
         text-decoration-line: none;
         font-style: italic;
+        padding: 5px;
         }
+
+    div.right {
+        text-align: right;
+    }
 
 
