@@ -1,0 +1,52 @@
+<!-- Austin Moore
+    Assignment 10.3    5/5/2024 -->
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <meta name="description"
+        content="Assignment Module 10.3" />
+    <meta http-equiv="author"
+        content="Austin Moore" />
+    <meta http-equiv="pragma"
+        content="no-cache" />
+    <meta http-equiv="expires"
+        content="Sat, 01 Jun 2024 23:59:59 GMT" />
+</head>
+
+
+
+<body>
+    <h1>Assignment 10.3: JavaScript - Part 2</h1>
+    <h2>Pictures</h2>
+
+
+    <a href="cave_01.jpg">
+    <img src="cave_01.jpg"
+            onmouseover="this.src='cave_02.jpg';"
+            onmouseout="this.src='cave_01.jpg';"
+            />
+            <map name="workmap">
+            <area shape="default" coords="default" href="cave_01.jpg" onclick="myFunction()">
+            </map>
+            <script>
+            function myFunction() {
+                alert("You clicked the cave!");
+            }
+            </script>
+    </a>
+    <p></p>
+
+    <img src="moon_01.jpg" img src="moon_02.jpg" alt="Moon Picture" usemap="#workmap2">
+    <map name="workmap2">
+        <area shape="default" coords="default" href="moon_01.jpg" onclick="myFunction()">
+      </map>
+      <script>
+        function myFunction() {
+        alert("You clicked the moon!");
+      }
+      </script>
+</body>
+
+</html>
