@@ -1,0 +1,68 @@
+<!-- Austin Moore
+    Assignment 11.2    5/11/2024 -->
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <meta name="description"
+        content="Assignment Module 11.2" />
+    <meta http-equiv="author"
+        content="Austin Moore" />
+    <meta http-equiv="pragma"
+        content="no-cache" />
+    <meta http-equiv="expires"
+        content="Sat, 01 Jun 2024 23:59:59 GMT" />
+</head>
+
+<body>
+    <h1>Assignment 11.2: JavaScript - Part 3</h1>
+    <p>This page for adding simple items to a list. The items will be displayed 
+        in order they are added and the last entry can be deleted.</p>
+        <input type="text" id="inputBox">
+        <button onclick="addItem()">Add</button>
+        <button onclick="deleteItem()">Delete Last Entry</button>
+        <button onclick="displayItems()">Display</button>
+        
+        <hr size="3px">
+        <div id="displayArea"></div>
+        
+        <script>
+          let itemsArray = [];
+        
+          function addItem() {
+            let newItem = document.getElementById("inputBox").value;
+            if (newItem.trim() !== "") {
+              itemsArray.push(newItem);
+              alert("'" + newItem + "' added at position " + itemsArray.length);
+              document.getElementById("inputBox").value = ""; // Clearing input box
+              displayItems(); // Update display after adding item
+            }
+          }
+        
+          function deleteItem() {
+            if (itemsArray.length === 0) {
+              alert("Array is empty, nothing to delete.");
+              return;
+            }
+            let deletedItem = itemsArray.pop();
+            alert("'" + deletedItem + "' deleted from position " + (itemsArray.length + 1));
+            displayItems(); // Update display after deleting item
+          }
+        
+          function displayItems() {
+            let displayArea = document.getElementById("displayArea");
+            displayArea.innerHTML = ""; // Clear previous contents
+            let displayString = "";
+            for (let i = 0; i < itemsArray.length; i++) {
+              displayString += (i + 1) + ". " + itemsArray[i] + "<br>";
+            }
+            if (displayString === "") {
+              displayString = "Array is empty.";
+            }
+            displayArea.innerHTML = displayString;
+          }
+        </script>
+</body>
+
+</html>
