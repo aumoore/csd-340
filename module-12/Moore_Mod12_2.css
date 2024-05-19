@@ -1,0 +1,54 @@
+/*-- Austin Moore
+    Assignment 3.3
+    3/31/2024
+    */
+    div.container {
+        margin-top: 50px;
+        margin-left: 100px;
+        margin-right: 100px;
+
+        font-family: sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.4;}
+    
+    h1 {
+        text-align: center;}
+
+    
+    h3 {
+        width: 45%;
+        font-weight: 500;}
+
+    .bottom {
+        text-align: right; 
+        width: 100%; 
+        background: none;
+        float: right;
+        margin-bottom: 20px;
+        }
+
+    ul, ol {
+        font-weight: 300;}   
+
+
+    .right {
+        width: 45%; float: right; background: none;
+        border: 1px dashed red;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .left {
+        width: 45%; float: left; background: none;
+        border: 1px solid red;
+        border-radius: 15px;
+        padding: 10px;}
+
+    a {
+        text-decoration: none;    
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
